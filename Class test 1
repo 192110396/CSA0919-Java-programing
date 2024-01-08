@@ -1,0 +1,43 @@
+1.java program for pattern?
+
+import java.util.Scanner;
+public class R{
+public static void main(String[] args){
+Scanner scanner=new Scanner(System.in);
+System.out.print("enter number of rows:");
+int rows=scanner.nextInt();
+printPattern(rows);
+scanner.close();
+}
+public static void printPattern(int rows){
+for(int i=0;i<rows;i++)
+{
+for(int j=0;j<=i;j++){
+System.out.print("* ");
+}
+System.out.println();
+}
+}
+}
+
+2. java program for simple inetrest calculate?
+
+import java.util.Scanner;
+public class Classtest1{
+public static void main(String[] args){
+Scanner scanner=new Scanner(System.in);
+System.out.print("enter prinicipal amount:");
+double prinicipal=scanner.nextDouble();
+System.out.print("enter the time:");
+double time=scanner.nextDouble();
+System.out.print("enter the senioe citizen(yes/no):");
+String customerType=scanner.next();
+double rateOfInterest = (customerType.equalsIgnoreCase("yes")) ? 0.12 : 0.10;
+double interest = calculateSimpleInterest(prinicipal, rateOfInterest, time);
+System.out.println(" simple interest :" + interest);
+scanner.close();
+}
+public static double calculateSimpleInterest(double principal, double rate, double time) {
+return (principal * rate * time);
+}
+}
