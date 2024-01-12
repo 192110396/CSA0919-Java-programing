@@ -1,29 +1,4 @@
-Skip to content
-Vishwa004
-/
-CSA0919-Java
-
-Type / to search
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Commit
-Create Easy-26
- main
-@Vishwa004
-Vishwa004 committed 1 hour ago 
-1 parent 1b0e4c5
-commit f661dcd
-Showing 1 changed file with 46 additions and 0 deletions.
- 46 changes: 46 additions & 0 deletions46  
-Easy-26
-@@ -0,0 +1,46 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 class Count {
     public static void main(String args[]) {
@@ -69,22 +44,3 @@ class Count {
         }
     }
 }
-0 comments on commit f661dcd
-@192110396
-Comment
- 
-Leave a comment
- 
- You’re not receiving notifications from this thread.
-Footer
-© 2024 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact
-Manage cookies
-Do not share my personal information
-Create Easy-26 · Vishwa004/CSA0919-Java@f661dcd
